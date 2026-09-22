@@ -1,0 +1,21 @@
+# 1. 파이썬 및 시스템 캐시 파일
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# 2. 파이썬 가상 환경 폴더
+venv/
+env/
+ENV/
+
+# 3. 환경 변수 및 보안 키 파일 (API Key 유출 방지)
+.env
+
+# 4. 로컬 벡터 데이터베이스 (Q&A 시스템의 ChromaDB 폴더)
+chroma_db/
+
+# 5. 기타 에디터 및 숨김 설정 폴더
+.agents/
+.vscode/
+.idea/
